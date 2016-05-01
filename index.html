@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/styles/css/reset.css" rel="stylesheet" type="text/css">
+    <link href="assets/styles/css/master.css" rel="stylesheet" type="text/css">
+    <script src="assets/libs/jquery/jquery-2.2.3.min.js"></script>
+</head>
+<body>
+
+<div id="login_modal">
+    <form>
+        <img class="close_btn" src="assets/images/close.png">
+        <div class="title">Sign In To Your Account</div>
+        <fieldset>
+            <label for="username">Username</label>
+            <input type="text" name="" id="username">
+        </fieldset>
+        <fieldset>
+            <label for="password">Password</label>
+            <input type="password" name="" id="password">
+        </fieldset>
+        <div class="btn_container">
+            <input type="submit" value="Login"/>
+        </div>
+    </form>
+</div>
+
+<div id="main_header">
+    <div class="page_wrapper">
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="Logo">
+        </div>
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">employee</a></li>
+                    <li><a class="active" href="#">company</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<div class="page_wrapper">
+    <div id="main_content">
+        <div class="left">
+            <h1>Best Bank Ever!</h1>
+            <p>
+                Pellentesque habitant morbi tristique senectus et netus et <a href="#">malesuada</a> fames ac turpis
+                egestas. Vestibulum
+                tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
+                semper. Aenean ultricies mi vitae est. Mauris <a href="#">placerat</a> eleifend leo. Quisque sit amet
+                est et sapien
+                ullamcorper pharetra.
+            </p>
+            <div id="reasons_list">
+                <div class="title">Reasons We're Awesome:</div>
+                <ul>
+                    <li><a>Lorem ipsum dolor sit amet.</a></li>
+                    <li><a>Aliquam tincidunt mauris eu risus.</a></li>
+                    <li><a>Lorem ipsum dolor sit amet.</a></li>
+                    <li><a>Lorem ipsum dolor sit amet.</a></li>
+                    <li><a>Vestibulum auctor dapibus neque.</a></li>
+                </ul>
+            </div>
+            <div id="mobile_info">
+                <div class="title">Amazing Mobile Info</div>
+                <div class="p_container">
+                    <p>
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                        Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+                    </p>
+                    <div class="image">
+                        <img src="assets/images/mobile.png" alt="Mobile">
+                    </div>
+                </div>
+            </div>
+            <div id="rates_title">
+                <div class="rates">Rates</div>
+                <div class="check">Check them out.</div>
+            </div>
+            <div id="rates_table_container"></div>
+        </div>
+        <div class="right">
+            <div id="sidebar">
+                <aside>
+                    <a id="login_btn" href="#">Login</a>
+                    <div id="news_archive">
+                        <nav>
+                            <ul>
+                                <li class="tab active"><a href="#news_content">News</a></li>
+                                <li class="tab"><a href="#archive_content">Archive</a></li>
+                            </ul>
+                        </nav>
+                        <div id="tab_content_container">
+                            <div id="news_content" class="tab_content active">
+                                <div class="article">
+                                    <article>
+                                        <h2 class="title">Lorem ipsum dolor</h2>
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                                            turpis egestas.</p>
+                                    </article>
+                                </div>
+                                <div class="article">
+                                    <article>
+                                        <h2 class="title">Lorem ipsum dolor</h2>
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                                            turpis egestas.</p>
+                                    </article>
+                                </div>
+                                <div class="article">
+                                    <article>
+                                        <h2 class="title">Lorem ipsum dolor</h2>
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                                            turpis egestas.</p>
+                                    </article>
+                                </div>
+                            </div>
+                            <div id="archive_content" class="tab_content">
+                                <div class="article">
+                                    <article>
+                                        <h2 class="title">Archived ipsum dolor</h2>
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                                            turpis egestas.</p>
+                                    </article>
+                                </div>
+                                <div class="article">
+                                    <article>
+                                        <h2 class="title">Archived ipsum dolor</h2>
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                                            turpis egestas.</p>
+                                    </article>
+                                </div>
+                                <div class="article">
+                                    <article>
+                                        <h2 class="title">Archived ipsum dolor</h2>
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                                            turpis egestas.</p>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+    <div class="page_wrapper">
+        <footer>
+            <div id="copyright">&copy 2014 URBank</div>
+            <div class="navigation">
+                <nav>
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">employee</a></li>
+                        <li class="active"><a href="#">company</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="assets/js/functions.js"></script>
+</body>
+</html>
